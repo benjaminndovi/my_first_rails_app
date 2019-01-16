@@ -12,7 +12,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'pg'
+  gem 'pg', '~> 0.21'
 end
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
